@@ -2,7 +2,7 @@
 public class ClassA {
 	
 	public int methodA() {
-		return 123;
+		return 345;
 	}
 	
 	public double methodB() {
