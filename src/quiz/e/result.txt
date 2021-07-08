@@ -1,0 +1,10 @@
+user:rock com:paper result:lose
+user:scissors com:scissors result:draw
+user:paper com:rock result:win
+user:paper com:scissors result:lose
+user:rock com:rock result:draw
+user:rock com:rock result:draw
+user:scissors com:paper result:win
+user:paper com:rock result:win
+user:scissors com:paper result:win
+user:paper com:paper result:draw
