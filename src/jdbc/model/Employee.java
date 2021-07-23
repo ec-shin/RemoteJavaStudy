@@ -11,11 +11,29 @@ public class Employee {
 	private Date hire_date;
 	private String job_id;
 	private double salary;
-	private double commision_pct;
+	private double commission_pct;
 	private int manager_id;
 	private int department_id;
 	private Department department;
 	
+
+	public Employee(int employee_id, String first_name, String last_name, String email, String phone_number,
+			Date hire_date, String job_id, double salary, double commission_pct, int manager_id, int department_id,
+			Department department) {
+		super();
+		this.employee_id = employee_id;
+		this.first_name = first_name;
+		this.last_name = last_name;
+		this.email = email;
+		this.phone_number = phone_number;
+		this.hire_date = hire_date;
+		this.job_id = job_id;
+		this.salary = salary;
+		this.commission_pct = commission_pct;
+		this.manager_id = manager_id;
+		this.department_id = department_id;
+		this.department = department;
+	}
 
 	public Department getDepartment() {
 		return department;
@@ -89,12 +107,12 @@ public class Employee {
 		this.salary = salary;
 	}
 
-	public double getCommision_pct() {
-		return commision_pct;
+	public double getCommission_pct() {
+		return commission_pct;
 	}
 
-	public void setCommision_pct(double commision_pct) {
-		this.commision_pct = commision_pct;
+	public void setCommission_pct(double commission_pct) {
+		this.commission_pct = commission_pct;
 	}
 
 	public int getManager_id() {
